@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+  min-height: 100vh;
+  color: #000;
+  transition: 0.3s;
+}
+
+.app.dark {
+  background: linear-gradient(to right, #232526, #414345);
+  color: white;
+}
+
+.search-box {
+  margin: 1rem;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #888;
+}
+
+button {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.forecast {
+  margin-top: 2rem;
+}
+
+.forecast-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.forecast-card {
+  background: #ffffffcc;
+  padding: 1rem;
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.app.dark .forecast-card {
+  background: #2e2e2e;
+}

@@ -1,0 +1,65 @@
+/* WeatherDashboard.css */
+
+.dashboard {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.forecast-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.forecast-item {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+}
+
+/* Weather-based backgrounds */
+.clear-bg {
+  background: linear-gradient(to top, #56ccf2, #2f80ed);
+}
+.clouds-bg {
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
+}
+.rain-bg {
+  background: linear-gradient(to top, #4b79a1, #283e51);
+}
+.snow-bg {
+  background: linear-gradient(to top, #e6dada, #274046);
+}
+.default-bg {
+  background: #aaa;
+}
+
+/* Toggle animation */
+.animated-toggle {
+  transition: all 0.3s ease-in-out;
+}
+
+.hourly-forecast {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+/* Dark mode */
+.dark {
+  background-color: #111;
+  color: #eee;
+}
+
+.dark .forecast-item {
+  background: rgba(255, 255, 255, 0.05);
+}
