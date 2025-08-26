@@ -1,1 +1,1 @@
-"# weatherapp" 
+A simple and interactive web application that allows users to check real-time weather updates for any city. It displays current temperature, humidity, wind speed, and weather conditions with a clean and user-friendly dashboard design.
